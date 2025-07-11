@@ -16,4 +16,4 @@ height = 1.58
 
 print(surname * age)
 print("hello i am", name)
-print("i am" surname)
+print("i am", surname)
