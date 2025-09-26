@@ -1,0 +1,33 @@
+#p1 { color: red; }
+#p2 { color: blue; }
+#p3 { color: green; }
+#p4 { color: orange; }
+#p5 { color: purple; }
+
+.bg { background-color: lightyellow; padding: 5px; }
+
+.btn {
+background-color: teal;
+color: white;
+border: none;
+}
+
+.gallery img {
+width: 150px;
+}
+
+table {
+border-collapse: collapse;
+width: 50%;
+}
+
+
+th, td {
+border: 1px solid black;
+text-align: center;
+}
+
+
+th {
+background-color: lightgray;
+}

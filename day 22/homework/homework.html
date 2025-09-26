@@ -1,0 +1,96 @@
+<!--
+     - id უნიკალურია და მხოლოდ ერთ ელემენტზე შეიძლება გამოყენება.
+     - class შეიძლება გამოყენებულ იქნას ბევრ ელემენტზე ერთდროულად.
+-->
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>დავალება</title>
+    <link rel="stylesheet" href=homework.css">
+</head>
+<body>
+    <h1>CSS Class და ID მაგალითები</h1>
+
+    <p id="p1">ეს არის პირველი პარაგრაფი</p>
+    <p id="p2">ეს არის მეორე პარაგრაფი</p>
+    <p id="p3">ეს არის მესამე პარაგრაფი</p>
+    <p id="p4">ეს არის მეოთხე პარაგრაფი</p>
+    <p id="p5">ეს არის მეხუთე პარაგრაფი</p>
+
+    <p class="bg">ეს არის მეექვსე პარაგრაფი</p>
+    <p class="bg">ეს არის მეშვიდე პარაგრაფი</p>
+    <p class="bg">ეს არის მერვე პარაგრაფი</p>
+    <p class="bg">ეს არის მეცხრე პარაგრაფი</p>
+    <p class="bg">ეს არის მეათე პარაგრაფი</p>
+
+    <hr>
+
+    <nav>
+        <a href="index.html">მთავარი</a>
+        <a href="about.html">ჩვენს შესახებ</a>
+    </nav>
+
+    <h2>ფოტო გალერეა</h2>
+    <div class="gallery">
+        <img src="img1.jpg" alt="ფოტო1">
+        <img src="img2.jpg" alt="ფოტო2">
+        <img src="img3.jpg" alt="ფოტო3">
+        <img src="img4.jpg" alt="ფოტო4">
+        <img src="img5.jpg" alt="ფოტო5">
+        <img src="img6.jpg" alt="ფოტო6">
+        <img src="img7.jpg" alt="ფოტო7">
+        <img src="img8.jpg" alt="ფოტო8">
+    </div>
+
+    <h2>ღილაკები</h2>
+    <button>ღილაკი 1</button>
+    <button>ღილაკი 2</button>
+    <button>ღილაკი 3</button>
+    <button>ღილაკი 4</button>
+    <button>ღილაკი 5</button>
+    <button>ღილაკი 6</button>
+    <button>ღილაკი 7</button>
+    <button>ღილაკი 8</button>
+
+    <h2>სარეგისტრაციო ფორმა</h2>
+    <form>
+        <label>სახელი:</label>
+        <input type="text" name="name" required><br><br>
+
+        <label>იმეილი:</label>
+        <input type="email" name="email" required><br><br>
+
+        <label>პაროლი:</label>
+        <input type="password" name="password" required><br><br>
+
+        <button type="submit">რეგისტრაცია</button>
+    </form>
+
+    <h2>ცხრილი</h2>
+    <table border="1">
+        <tr>
+            <th>№</th>
+            <th>სახელი</th>
+            <th>ქულა</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>ლუკა</td>
+            <td>95</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>ლიზი</td>
+            <td>88</td>
+        </tr>
+    </table>
+
+    <!--id მხოლოდ ერთ ელემენტს ეკუთვნის, მაგრამ class საშუალებას გვაძლევს ერთნაირად გავსტილოთ ბევრი ელემენტი.
+         ამიტომ class უფრო მოქნილია მასობრივი სტილებისათვის.
+    -->
+
+</body>
+</html>
