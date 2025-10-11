@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(240, 240, 240);
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(255, 0, 0); 
+    text-decoration: underline;
+}
+
+img {
+    width: 50%;
+}
+
+p {
+    font-size: 18px;
+    color: rgb(50, 50, 50);
+}
+
+.details {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
