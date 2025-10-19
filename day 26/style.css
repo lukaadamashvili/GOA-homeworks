@@ -1,0 +1,67 @@
+/* 1) ბმულების სტილი */
+a {
+    color: skyblue;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: darkviolet;
+}
+
+/* 2) div და hover ეფექტი */
+div {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    transition: all 5s; /* ეფექტი გაგრძელდეს 5 წამი */
+}
+
+div:hover {
+    background-color: green;
+    color: white;
+}
+
+/* 3) ღილაკის active მდგომარეობა */
+button:active {
+    background-color: darkblue;
+    border: 2px solid red;
+}
+
+/* 4) ტექსტური ელემენტების სხვადასხვა ფონტი */
+p.font1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1.font2 {
+    font-family: 'Lobster', cursive;
+}
+
+b.font3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* 5) ტექსტის გაფორმება */
+.p1 {
+    text-decoration: underline;
+}
+.p2 {
+    text-decoration: overline;
+}
+.p3 {
+    text-decoration: line-through;
+}
+.p4 {
+    text-decoration: none;
+}
+
+/* 6) ფოტოს hover ეფექტი */
+img {
+    width: 300px;
+    transition: 1s; /* ეფექტი გაგრძელდეს 3 წამი */
+}
+
+img:hover {
+    transform: scale(1.2);
+    border: 3px solid black;
+    border-radius: 20px;
+}
