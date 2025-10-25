@@ -29,4 +29,3 @@ word="luka"
 num=10
 
 print(word * num)
-

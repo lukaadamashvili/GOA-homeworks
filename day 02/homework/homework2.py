@@ -17,5 +17,5 @@ print(name * 11)
 
 print(name + " " + surname)
 
-print("luka adamashvili" * 100)
+print("luka adamashvili" +  "100")
 

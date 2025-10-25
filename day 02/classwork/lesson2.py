@@ -9,11 +9,11 @@ print(num1 * num2)
 print(num1 / num2)
 
 
-name = "luka"
-surname = "adamashvli"
+name1 = "luka"
+surname1 = "adamashvli"
 age = 12
-height = 1.58
+height = 1.62
 
-print(surname * age)
-print("hello i am", name)
-print("i am", surname)
+print(surname1 * age)
+print("hello my name", name1)
+print("my surname is", surname1)
