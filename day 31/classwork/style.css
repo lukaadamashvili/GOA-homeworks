@@ -1,0 +1,67 @@
+/* დავალება 2 */
+.task2 {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 30px;
+    border: 2px solid black;
+}
+
+/* დავალება 3 */
+.task3-a {
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid red;
+    background-color: #ffe6e6;
+}
+
+.task3-b {
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid green;
+    background-color: #e6ffe6;
+}
+
+.task3-c {
+    padding: 30px;
+    margin: 30px;
+    border: 3px solid blue;
+    background-color: #e6e6ff;
+}
+
+/* inline (b) vs block (div) — დავალება 4 */
+.box-b {
+    padding: 10px;
+    margin: 10px; /* არ აისახება ზემოთ/ქვევით — inline ელემენტებს margin-top/bottom არ მოქმედებს */
+    border: 2px solid purple;
+    display: inline-block; /* ნორმალურად რომ გამოჩნდეს, შეიძლება */
+}
+
+.box-div {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid orange;
+    background-color: #fff2cc;
+}
+
+/* დავალება 5 */
+.round-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* მაქსიმალური მომრგვალება */
+    margin: 20px;
+    border: 3px solid black;
+}
+
+/* დავალება 6 — სპეციალური unusual border radius */
+.fancy-border {
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+    margin: 20px;
+
+    /* მაგალითი საიტიდან: */
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+}

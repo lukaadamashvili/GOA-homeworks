@@ -1,0 +1,74 @@
+/* ------------------------- */
+/* დავალება 1 — article */
+/* ------------------------- */
+.task1 {
+    width: 220px;
+    background-color: lightblue;
+    padding: 20px 0;      /* ზევით/ქვემოთ padding */
+    border: 1px dashed black;
+    margin-bottom: 40px;
+}
+
+
+/* ------------------------- */
+/* დავალება 2 — 3 div */
+/* ------------------------- */
+.pad-div {
+    background-color: #ffe6e6;
+    padding: 20px; /* მხოლოდ padding */
+    margin-bottom: 10px;
+}
+
+.border-div {
+    background-color: #e6ffe6;
+    border: 3px solid green; /* მხოლოდ border */
+    margin-bottom: 10px;
+}
+
+.margin-div {
+    background-color: #e6e6ff;
+    margin: 30px; /* მხოლოდ margin */
+}
+
+
+/* ------------------------- */
+/* დავალება 3 — border-radius შედარება */
+/* ------------------------- */
+.img-radius1 {
+    border-radius: 20px;
+    margin-right: 20px;
+    border: 2px solid black;
+}
+
+.img-radius2 {
+    border-radius: 5px 30px 50px 10px;
+    border: 2px solid black;
+}
+
+
+/* ------------------------- */
+/* დავალება 4 — outer + inner divs */
+/* ------------------------- */
+.outer {
+    width: 300px;
+    height: 250px;
+    background-color: #cce7ff;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.inner {
+    width: 200px;
+    height: 70px;
+    background-color: #ffddaa;
+    margin: 10px;
+    padding: 10px;
+}
+
+.child1 {
+    background-color: #ffd1d1;
+}
+
+.child2 {
+    background-color: #d1ffd1;
+}

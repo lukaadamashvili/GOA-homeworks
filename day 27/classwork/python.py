@@ -58,8 +58,8 @@ for i in range(len(numbers)):
 # 9
 nums = [10, 20, 30, 40, 50]
 total = 0
-for num in nums:
-    total += num
+for i in nums:
+    total += i
 print("9) ჯამი:", total)
 
 # 10
