@@ -1,0 +1,21 @@
+
+.container {
+    width: 600px;
+    height: 300px;
+    border: 2px solid black;
+    padding: 15px;
+}
+
+
+.boxes {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;              
+}
+
+
+.box {
+    width: 70px;
+    height: 70px;
+    background-color: red;
+}

@@ -1,0 +1,21 @@
+.parent {
+    width: 700px;
+    height: 500px;
+    background-color: #ddd;
+
+    position: relative;   /* მშობელი */
+    margin: 50px auto;
+}
+
+.center-btn {
+    position: absolute;   /* შვილზე */
+    top: 50%;
+    left: 50%;
+
+    /* ცენტრში გადატანა პიქსელებით */
+    margin-top: -20px;
+    margin-left: -50px;
+
+    width: 100px;
+    height: 40px;
+}

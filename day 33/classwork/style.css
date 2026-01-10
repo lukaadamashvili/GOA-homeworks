@@ -1,0 +1,16 @@
+
+.container {
+    width: 600px;
+    height: 300px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+
+.box {
+    width: 70px;
+    height: 70px;
+    background: red;
+    display: inline-block;
+    margin-right: 10px;
+}

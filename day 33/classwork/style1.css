@@ -1,0 +1,22 @@
+
+.container {
+    width: 600px;
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center; 
+    padding-top: 20px;       
+}
+
+
+.boxes {
+    display: flex;
+    gap: 15px;   
+}
+
+
+.box {
+    width: 70px;
+    height: 70px;
+    background: red;
+}
